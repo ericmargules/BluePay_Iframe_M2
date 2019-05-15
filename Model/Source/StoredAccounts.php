@@ -25,7 +25,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
  
-namespace BluePay\Payment\Model\Source;
+namespace BluePayIframe\Payment\Model\Source;
 
 use Magento\Customer\Controller\RegistryConstants;
 use Magento\Framework\Registry;

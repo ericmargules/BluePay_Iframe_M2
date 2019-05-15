@@ -1,6 +1,6 @@
 <?php
 
-namespace BluePay\Payment\Model;
+namespace BluePayIframe\Payment\Model;
 
 class Iframe extends \Magento\Payment\Model\Method\AbstractMethod
 {

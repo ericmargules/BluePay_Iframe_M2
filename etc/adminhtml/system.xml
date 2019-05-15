@@ -16,27 +16,27 @@
                 </field>
                 <field id="account_id" translate="label" type="obscure" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Account ID</label>
-                    <backend_model>BluePay\Payment\Model\System\Config\Backend\Encrypted</backend_model>
+                    <backend_model>BluePayIframe\Payment\Model\System\Config\Backend\Encrypted</backend_model>
                 </field>
                 <field id="secret_key" translate="label" type="obscure" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Secret Key</label>
-                    <backend_model>BluePay\Payment\Model\System\Config\Backend\Encrypted</backend_model>
+                    <backend_model>BluePayIframe\Payment\Model\System\Config\Backend\Encrypted</backend_model>
                 </field>
                 <field id="payment_type" translate="label" type="select" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Payment Type</label>
-                    <source_model>BluePay\Payment\Model\Source\PaymentType</source_model>
+                    <source_model>BluePayIframe\Payment\Model\Source\PaymentType</source_model>
                 </field>
                 <field id="trans_mode" translate="label" type="select" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Transaction Mode</label>
-                    <source_model>BluePay\Payment\Model\Source\TransactionMode</source_model>
+                    <source_model>BluePayIframe\Payment\Model\Source\TransactionMode</source_model>
                 </field>
                 <field id="payment_action" translate="label" type="select" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Transaction Type</label>
-                    <source_model>BluePay\Payment\Model\Source\TransactionType</source_model>
+                    <source_model>BluePayIframe\Payment\Model\Source\TransactionType</source_model>
                 </field>
                 <field id="cctypes" translate="label" type="multiselect" sortOrder="7" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Credit Card Types</label>
-                    <source_model>BluePay\Payment\Model\Source\Cctype</source_model>
+                    <source_model>BluePayIframe\Payment\Model\Source\Cctype</source_model>
                 </field>
                 <field id="useccv" translate="label" type="select" sortOrder="8" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Credit Card Verification</label>
@@ -48,7 +48,7 @@
                 </field>
                 <!-- <field id="order_status" translate="label" type="select" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>New Order Status</label>
-                    <source_model>BluePay\Payment\Model\Source\OrderStatuses</source_model>
+                    <source_model>BluePayIframe\Payment\Model\Source\OrderStatuses</source_model>
                 </field> -->
                 <field id="debug" translate="label" type="select" sortOrder="12" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Debug</label>

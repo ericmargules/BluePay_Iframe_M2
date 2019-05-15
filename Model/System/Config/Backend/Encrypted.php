@@ -8,7 +8,7 @@
 
 // @codingStandardsIgnoreFile
 
-namespace BluePay\Payment\Model\System\Config\Backend;
+namespace BluePayIframe\Payment\Model\System\Config\Backend;
 
 class Encrypted extends \Magento\Config\Model\Config\Backend\Encrypted
 {

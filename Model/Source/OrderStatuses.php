@@ -25,7 +25,7 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
  
-namespace BluePay\Payment\Model\Source;
+namespace BluePayIframe\Payment\Model\Source;
 
 class OrderStatuses
 {
@@ -35,6 +35,10 @@ class OrderStatuses
             [
                 'value' => __('processing'),
                 'label' => 'Processing'
+            ],
+            [
+                'value' => __('pending_payment'),
+                'label' => 'Pending Payment'
             ],
             [
                 'value' => __('pending'),

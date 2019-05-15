@@ -1,5 +1,5 @@
 <?php
-namespace BluePay\Payment\Model;
+namespace BluePayIframe\Payment\Model;
 
 /**
  * Magento
