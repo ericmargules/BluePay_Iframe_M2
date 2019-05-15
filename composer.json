@@ -1,6 +1,6 @@
 {
     "name": "bluepay-iframe/payment",
-    "description": "BluePay credit card & ACH Payment plugin for M2",
+    "description": "BluePay credit card & ACH payment plugin for M2",
     "type": "magento2-module",
     "version": "0.0.1",
     "license": [
