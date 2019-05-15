@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <bluepay_iframe_payment>
+                <model>BluePay\Payment\Model\Iframe</model>
+                <active>1</active>
+                <title>BluePay (Credit Card and eCheck)</title>
+                <account_id backend_model="Magento\Config\Model\Config\Backend\Encrypted"/>
+                <secret_key backend_model="Magento\Config\Model\Config\Backend\Encrypted"/>
+                <payment_type>CCACH</payment_type>
+                <trans_mode>TEST</trans_mode>
+                <payment_action>AUTH</payment_action>
+                <cctypes>AE,VI,MC,DI,JCB</cctypes>
+                <useccv>1</useccv>
+                <tokenization>1</tokenization>
+                <!-- <order_status>payment_pending</order_status> -->
+                <debug>0</debug>
+                <currency>USD</currency>
+                <test>1</test>
+                <allowspecific>0</allowspecific>
+            </bluepay_iframe_payment>
+        </payment>
+    </default>
+</config>
